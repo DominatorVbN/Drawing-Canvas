@@ -14,4 +14,5 @@ struct Drawing_CanvasApp: App {
             ContentView()
         }
     }
+    
 }

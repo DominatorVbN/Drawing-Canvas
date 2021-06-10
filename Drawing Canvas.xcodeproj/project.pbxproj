@@ -7,68 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		289EE54F26714F8C002F66D3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EE54E26714F8C002F66D3 /* Tests_iOS.swift */; };
-		289EE55926714F8C002F66D3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EE55826714F8C002F66D3 /* Tests_macOS.swift */; };
+		280DDBFF267175DC00467332 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DDBFE267175DC00467332 /* DrawView.swift */; };
+		280DDC2E26726FD400467332 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EE53926714F8A002F66D3 /* ContentView.swift */; };
+		280DDC2F26726FD400467332 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DDBFE267175DC00467332 /* DrawView.swift */; };
+		280DDC3026726FD400467332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289EE53A26714F8C002F66D3 /* Assets.xcassets */; };
+		280DDC3126726FD400467332 /* Drawing_CanvasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EE53826714F8A002F66D3 /* Drawing_CanvasApp.swift */; };
+		280DDC34267271F900467332 /* SegmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DDC33267271F900467332 /* SegmentedView.swift */; };
+		280DDC36267273D900467332 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DDC35267273D900467332 /* SideBarView.swift */; };
+		280DDC372672741400467332 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DDC35267273D900467332 /* SideBarView.swift */; };
 		289EE55A26714F8C002F66D3 /* Drawing_CanvasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EE53826714F8A002F66D3 /* Drawing_CanvasApp.swift */; };
-		289EE55B26714F8C002F66D3 /* Drawing_CanvasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EE53826714F8A002F66D3 /* Drawing_CanvasApp.swift */; };
 		289EE55C26714F8C002F66D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EE53926714F8A002F66D3 /* ContentView.swift */; };
-		289EE55D26714F8C002F66D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EE53926714F8A002F66D3 /* ContentView.swift */; };
 		289EE55E26714F8C002F66D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289EE53A26714F8C002F66D3 /* Assets.xcassets */; };
-		289EE55F26714F8C002F66D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289EE53A26714F8C002F66D3 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		289EE54B26714F8C002F66D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 289EE53326714F8A002F66D3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 289EE53E26714F8C002F66D3;
-			remoteInfo = "Drawing Canvas (iOS)";
-		};
-		289EE55526714F8C002F66D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 289EE53326714F8A002F66D3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 289EE54426714F8C002F66D3;
-			remoteInfo = "Drawing Canvas (macOS)";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		28066C7C267283820084572F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		280DDBFE267175DC00467332 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		280DDC0126726CCE00467332 /* Drawing Canvas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Drawing Canvas.entitlements"; sourceTree = "<group>"; };
+		280DDC0626726FB500467332 /* Drawing Canvas (macOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing Canvas (macOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		280DDC33267271F900467332 /* SegmentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedView.swift; sourceTree = "<group>"; };
+		280DDC35267273D900467332 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
 		289EE53826714F8A002F66D3 /* Drawing_CanvasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_CanvasApp.swift; sourceTree = "<group>"; };
 		289EE53926714F8A002F66D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		289EE53A26714F8C002F66D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		289EE53F26714F8C002F66D3 /* Drawing Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing Canvas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		289EE54526714F8C002F66D3 /* Drawing Canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing Canvas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		289EE54A26714F8C002F66D3 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		289EE54E26714F8C002F66D3 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		289EE55426714F8C002F66D3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		289EE55826714F8C002F66D3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		280DDC0326726FB500467332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		289EE53C26714F8C002F66D3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		289EE54226714F8C002F66D3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		289EE54726714F8C002F66D3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		289EE55126714F8C002F66D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,12 +51,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		280DDC32267271E600467332 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				280DDC33267271F900467332 /* SegmentedView.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		289EE53226714F8A002F66D3 = {
 			isa = PBXGroup;
 			children = (
+				28066C7C267283820084572F /* README.md */,
+				280DDC0126726CCE00467332 /* Drawing Canvas.entitlements */,
 				289EE53726714F8A002F66D3 /* Shared */,
-				289EE54D26714F8C002F66D3 /* Tests iOS */,
-				289EE55726714F8C002F66D3 /* Tests macOS */,
+				280DDC32267271E600467332 /* iOS */,
 				289EE54026714F8C002F66D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +76,8 @@
 				289EE53826714F8A002F66D3 /* Drawing_CanvasApp.swift */,
 				289EE53926714F8A002F66D3 /* ContentView.swift */,
 				289EE53A26714F8C002F66D3 /* Assets.xcassets */,
+				280DDBFE267175DC00467332 /* DrawView.swift */,
+				280DDC35267273D900467332 /* SideBarView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -102,32 +86,31 @@
 			isa = PBXGroup;
 			children = (
 				289EE53F26714F8C002F66D3 /* Drawing Canvas.app */,
-				289EE54526714F8C002F66D3 /* Drawing Canvas.app */,
-				289EE54A26714F8C002F66D3 /* Tests iOS.xctest */,
-				289EE55426714F8C002F66D3 /* Tests macOS.xctest */,
+				280DDC0626726FB500467332 /* Drawing Canvas (macOS).app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		289EE54D26714F8C002F66D3 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				289EE54E26714F8C002F66D3 /* Tests_iOS.swift */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		289EE55726714F8C002F66D3 /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				289EE55826714F8C002F66D3 /* Tests_macOS.swift */,
-			);
-			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		280DDC0526726FB500467332 /* Drawing Canvas (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280DDC2526726FBA00467332 /* Build configuration list for PBXNativeTarget "Drawing Canvas (macOS)" */;
+			buildPhases = (
+				280DDC0226726FB500467332 /* Sources */,
+				280DDC0326726FB500467332 /* Frameworks */,
+				280DDC0426726FB500467332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drawing Canvas (macOS)";
+			productName = "Drawing Canvas";
+			productReference = 280DDC0626726FB500467332 /* Drawing Canvas (macOS).app */;
+			productType = "com.apple.product-type.application";
+		};
 		289EE53E26714F8C002F66D3 /* Drawing Canvas (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 289EE56226714F8C002F66D3 /* Build configuration list for PBXNativeTarget "Drawing Canvas (iOS)" */;
@@ -145,59 +128,6 @@
 			productReference = 289EE53F26714F8C002F66D3 /* Drawing Canvas.app */;
 			productType = "com.apple.product-type.application";
 		};
-		289EE54426714F8C002F66D3 /* Drawing Canvas (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 289EE56526714F8C002F66D3 /* Build configuration list for PBXNativeTarget "Drawing Canvas (macOS)" */;
-			buildPhases = (
-				289EE54126714F8C002F66D3 /* Sources */,
-				289EE54226714F8C002F66D3 /* Frameworks */,
-				289EE54326714F8C002F66D3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Drawing Canvas (macOS)";
-			productName = "Drawing Canvas (macOS)";
-			productReference = 289EE54526714F8C002F66D3 /* Drawing Canvas.app */;
-			productType = "com.apple.product-type.application";
-		};
-		289EE54926714F8C002F66D3 /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 289EE56826714F8C002F66D3 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				289EE54626714F8C002F66D3 /* Sources */,
-				289EE54726714F8C002F66D3 /* Frameworks */,
-				289EE54826714F8C002F66D3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				289EE54C26714F8C002F66D3 /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = 289EE54A26714F8C002F66D3 /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		289EE55326714F8C002F66D3 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 289EE56B26714F8C002F66D3 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				289EE55026714F8C002F66D3 /* Sources */,
-				289EE55126714F8C002F66D3 /* Frameworks */,
-				289EE55226714F8C002F66D3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				289EE55626714F8C002F66D3 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = 289EE55426714F8C002F66D3 /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,19 +138,11 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					280DDC0526726FB500467332 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					289EE53E26714F8C002F66D3 = {
 						CreatedOnToolsVersion = 13.0;
-					};
-					289EE54426714F8C002F66D3 = {
-						CreatedOnToolsVersion = 13.0;
-					};
-					289EE54926714F8C002F66D3 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 289EE53E26714F8C002F66D3;
-					};
-					289EE55326714F8C002F66D3 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 289EE54426714F8C002F66D3;
 					};
 				};
 			};
@@ -238,14 +160,20 @@
 			projectRoot = "";
 			targets = (
 				289EE53E26714F8C002F66D3 /* Drawing Canvas (iOS) */,
-				289EE54426714F8C002F66D3 /* Drawing Canvas (macOS) */,
-				289EE54926714F8C002F66D3 /* Tests iOS */,
-				289EE55326714F8C002F66D3 /* Tests macOS */,
+				280DDC0526726FB500467332 /* Drawing Canvas (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		280DDC0426726FB500467332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280DDC3026726FD400467332 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		289EE53D26714F8C002F66D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,81 +182,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		289EE54326714F8C002F66D3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				289EE55F26714F8C002F66D3 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		289EE54826714F8C002F66D3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		289EE55226714F8C002F66D3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		280DDC0226726FB500467332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280DDC3126726FD400467332 /* Drawing_CanvasApp.swift in Sources */,
+				280DDC372672741400467332 /* SideBarView.swift in Sources */,
+				280DDC2F26726FD400467332 /* DrawView.swift in Sources */,
+				280DDC2E26726FD400467332 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		289EE53B26714F8C002F66D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				289EE55C26714F8C002F66D3 /* ContentView.swift in Sources */,
+				280DDC34267271F900467332 /* SegmentedView.swift in Sources */,
 				289EE55A26714F8C002F66D3 /* Drawing_CanvasApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		289EE54126714F8C002F66D3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				289EE55D26714F8C002F66D3 /* ContentView.swift in Sources */,
-				289EE55B26714F8C002F66D3 /* Drawing_CanvasApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		289EE54626714F8C002F66D3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				289EE54F26714F8C002F66D3 /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		289EE55026714F8C002F66D3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				289EE55926714F8C002F66D3 /* Tests_macOS.swift in Sources */,
+				280DDC36267273D900467332 /* SideBarView.swift in Sources */,
+				280DDBFF267175DC00467332 /* DrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		289EE54C26714F8C002F66D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 289EE53E26714F8C002F66D3 /* Drawing Canvas (iOS) */;
-			targetProxy = 289EE54B26714F8C002F66D3 /* PBXContainerItemProxy */;
-		};
-		289EE55626714F8C002F66D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 289EE54426714F8C002F66D3 /* Drawing Canvas (macOS) */;
-			targetProxy = 289EE55526714F8C002F66D3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
+		280DDC2626726FBA00467332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NWJALMT777;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "amitsamant.in.Drawing-Canvas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		280DDC2726726FBA00467332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NWJALMT777;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "amitsamant.in.Drawing-Canvas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		289EE56026714F8C002F66D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -445,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Drawing Canvas.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NWJALMT777;
@@ -455,7 +396,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +405,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "amitsamant.in.Drawing-Canvas";
 				PRODUCT_NAME = "Drawing Canvas";
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Drawing Canvas.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NWJALMT777;
@@ -485,184 +428,35 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "amitsamant.in.Drawing-Canvas";
-				PRODUCT_NAME = "Drawing Canvas";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		289EE56626714F8C002F66D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NWJALMT777;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "amitsamant.in.Drawing-Canvas";
-				PRODUCT_NAME = "Drawing Canvas";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		289EE56726714F8C002F66D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NWJALMT777;
-				ENABLE_APP_SANDBOX = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "amitsamant.in.Drawing-Canvas";
-				PRODUCT_NAME = "Drawing Canvas";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		289EE56926714F8C002F66D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NWJALMT777;
-				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "amitsamant.in.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "amitsamant.in.Drawing-Canvas";
+				PRODUCT_NAME = "Drawing Canvas";
 				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Drawing Canvas (iOS)";
-			};
-			name = Debug;
-		};
-		289EE56A26714F8C002F66D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NWJALMT777;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "amitsamant.in.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Drawing Canvas (iOS)";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		289EE56C26714F8C002F66D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NWJALMT777;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "amitsamant.in.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Drawing Canvas (macOS)";
-			};
-			name = Debug;
-		};
-		289EE56D26714F8C002F66D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NWJALMT777;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "amitsamant.in.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Drawing Canvas (macOS)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		280DDC2526726FBA00467332 /* Build configuration list for PBXNativeTarget "Drawing Canvas (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280DDC2626726FBA00467332 /* Debug */,
+				280DDC2726726FBA00467332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		289EE53626714F8A002F66D3 /* Build configuration list for PBXProject "Drawing Canvas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -677,33 +471,6 @@
 			buildConfigurations = (
 				289EE56326714F8C002F66D3 /* Debug */,
 				289EE56426714F8C002F66D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		289EE56526714F8C002F66D3 /* Build configuration list for PBXNativeTarget "Drawing Canvas (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				289EE56626714F8C002F66D3 /* Debug */,
-				289EE56726714F8C002F66D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		289EE56826714F8C002F66D3 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				289EE56926714F8C002F66D3 /* Debug */,
-				289EE56A26714F8C002F66D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		289EE56B26714F8C002F66D3 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				289EE56C26714F8C002F66D3 /* Debug */,
-				289EE56D26714F8C002F66D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
